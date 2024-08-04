@@ -201,14 +201,14 @@ export default function Home() {
                 alignItems={'center'}
                 paddingX={5}
               >
-                <Typography variant={'h5'} textAlign={'start'} width={"400px"} sx={{
+                <Typography variant={'h5'} textAlign={'start'} width={"400px"} color={'#433D8B'} sx={{
                   whiteSpace: 'nowrap',
                   overflow: 'hidden',
                   textOverflow: 'ellipsis',
                 }}>
                   {name.charAt(0).toUpperCase() + name.slice(1)}
                 </Typography>
-                <Typography variant={'h5'} textAlign={'center'}>
+                <Typography variant={'h5'} textAlign={'center'} color={'#433D8B'}>
                   {quantity}
                 </Typography>
                 <Box justifyContent={'end'}>
