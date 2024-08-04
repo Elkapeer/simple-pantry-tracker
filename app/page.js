@@ -186,7 +186,7 @@ export default function Home() {
         </Box>
         <Stack width="800px" height="300px" overflow={'auto'} marginBottom={3}>
           {inventory.map(({ name, quantity }) => (
-            <Box>
+            <Box key={name}>
               <Divider sx={{
                 marginX: 5,
                 borderColor: '#433D8B'
